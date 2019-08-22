@@ -39,6 +39,9 @@ namespace LogBook.Objects.Forms
 
         private List<int> _offsetRows = new List<int>();
 
+        /// <summary>
+        /// The text string that represents the Title of the Page
+        /// </summary>
         public sealed override string Text
         {
             get => base.Text;
